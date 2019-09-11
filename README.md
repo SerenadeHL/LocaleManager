@@ -37,3 +37,7 @@ override fun onCreate() {
     LocaleManager.inject(this)
 }
 ```
+### 4. 切换语言
+```kotlin
+LocaleManager.setLocale(context,Locale.SIMPLIFIED_CHINESE)
+```
