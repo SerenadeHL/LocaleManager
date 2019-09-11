@@ -32,6 +32,7 @@ override fun onConfigurationChanged(newConfig: Configuration?) {
 
 override fun onCreate() {
     super.onCreate()
+    LocaleManager.setDefaultLocale(Locale.SIMPLIFIED_CHINESE)//设置初次安装后默认语言，如不设置，则取系统默认语言
     LocaleManager.inject(this)
 }
 ```
