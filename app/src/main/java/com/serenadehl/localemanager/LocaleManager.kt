@@ -22,7 +22,7 @@ object LocaleManager {
 
     private var mDefaultLocale: Locale? = null
 
-    fun setDefaultLanguage(locale: Locale) {
+    fun setDefaultLocale(locale: Locale) {
         mDefaultLocale = locale
     }
 
